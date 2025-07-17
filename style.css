@@ -1,0 +1,120 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  font-size: 16px;
+  font-family: "Karla", serif;
+  padding: 50px;
+}
+.main{
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 0px 26px 4px rgba(34, 60, 80, 0.2); 
+  border-radius: 5px;
+  overflow: hidden;
+}
+.bottom{
+  width: 100%;
+  height: 55%;
+  display: flex;
+  color: white;
+}
+.second-section, .third-section{
+  flex: 50%;
+  padding: 25px;
+
+}
+.second-section{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 62%, 43%);
+  align-items: left;
+  justify-content: center;
+  
+}
+.first-section{
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+  padding-left: 50px
+}
+.first-section h2{
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 15px;
+}
+.first-section h4{
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 15px;
+}
+.first-section p{
+  color: hsl(218, 22%, 67%);
+}
+h2, h4, p{
+  margin: 0;
+}
+.detached{
+  display: flex;
+  align-items: center;
+}
+.third-section{
+  background-color:#51d6d4;
+}
+h2{
+  font-weight: 700;
+}
+p, li{
+  font-weight: 400;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+  color: hsl(204, 43%, 93%);
+  font-size: 13px;
+  margin-bottom: 2px
+}
+.third-section h4{
+  margin-bottom: 10px;
+}
+.dollars{
+  font-weight: 700;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.per-month{
+  color: hsl(204, 43%, 93%);
+  opacity: 57%;
+}
+.second-section h4{
+  padding-bottom: 17px;
+}
+.second-section p{
+  font-size: 14px;
+}
+button{
+  width: 100%;
+  height:45px;
+  margin-top: 20px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: 'Karla', serif;
+  font-size: 16px;
+  box-shadow: 0px 0px 26px 4px rgba(34, 60, 80, 0.2); 
+}
+button:hover{
+  cursor: pointer;
+  opacity: 50%;
+  transform: scale(1.02);
+}
+.content{
+  margin: auto;
+}
+.third-section h4{
+  margin-top: 6px;
+}
